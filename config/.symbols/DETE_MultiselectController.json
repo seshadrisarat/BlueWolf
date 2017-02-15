@@ -1,0 +1,151 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01pr00000009Lj6AAE",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01pr00000009Lj6AAE",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 8
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "setOptions",
+            "parameters": [
+                {
+                    "name": "options",
+                    "type": "LIST"
+                },
+                {
+                    "name": "value",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "DETE_MultiselectController",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 3
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "leftOptions",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 4
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "rightOptions",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 19
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "leftOptionsHidden",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 27
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "rightOptionsHidden",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "DETE_MultiselectController",
+        "references": [],
+        "type": "DETE_MultiselectController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 8
+            },
+            "modifiers": [],
+            "name": "options",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 8
+            },
+            "modifiers": [],
+            "name": "value",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "parts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 11
+            },
+            "modifiers": [],
+            "name": "i",
+            "references": [],
+            "type": "Integer"
+        }
+    ]
+}

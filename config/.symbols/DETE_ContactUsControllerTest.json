@@ -1,0 +1,66 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01pr00000009M0gAAE",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01pr00000009M0gAAE",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 4
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "validtest",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "DETE_ContactUsControllerTest",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 2
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "DETE_ContactUsControllerTest",
+        "references": [],
+        "type": "DETE_ContactUsControllerTest"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "DETE_ContactUsController"
+        }
+    ]
+}

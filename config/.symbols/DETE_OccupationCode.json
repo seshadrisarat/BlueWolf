@@ -1,0 +1,462 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01pr00000009KH6AAM",
+    "innerClasses": [],
+    "interfaces": [
+        "Database.AllowsCallouts",
+        "Database.Batchable"
+    ],
+    "key": "01pr00000009KH6AAM",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 9
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "start",
+            "parameters": [
+                {
+                    "name": "BC",
+                    "type": "BatchableContext"
+                }
+            ],
+            "references": [],
+            "returnType": "QueryLocator",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 18
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "execute",
+            "parameters": [
+                {
+                    "name": "batchContext",
+                    "type": "BatchableContext"
+                },
+                {
+                    "name": "pOccupationList",
+                    "type": "LIST"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 57
+            },
+            "modifiers": [
+                "global"
+            ],
+            "name": "finish",
+            "parameters": [
+                {
+                    "name": "batchContext",
+                    "type": "BatchableContext"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 79
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "verifyForOccupationCodeChange",
+            "parameters": [
+                {
+                    "name": "pOnetOccupationList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "pOccupationDBMap",
+                    "type": "Map"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 60
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "parseXMLResponse",
+            "parameters": [
+                {
+                    "name": "nodeObj",
+                    "type": "XmlNode"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        }
+    ],
+    "name": "DETE_OccupationCode",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 7
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "occupationUpdateLst",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 2
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "STATUS_CODE",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 3
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "CODE",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "TITLE",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 5
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "DESCRIPTION",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 6
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "REQUESTRANGE",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "global",
+            "with sharing"
+        ],
+        "name": "DETE_OccupationCode",
+        "references": [],
+        "type": "DETE_OccupationCode"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 66,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "BC",
+            "references": [],
+            "type": "BatchableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 51,
+                "line": 18
+            },
+            "modifiers": [],
+            "name": "batchContext",
+            "references": [],
+            "type": "BatchableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 85,
+                "line": 18
+            },
+            "modifiers": [],
+            "name": "pOccupationList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 20
+            },
+            "modifiers": [],
+            "name": "occupationDBMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 22
+            },
+            "modifiers": [],
+            "name": "onetOccupationList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 24
+            },
+            "modifiers": [],
+            "name": "http",
+            "references": [],
+            "type": "Http"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 27
+            },
+            "modifiers": [],
+            "name": "occupationInstance",
+            "references": [],
+            "type": "Occupation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 34
+            },
+            "modifiers": [],
+            "name": "rqstObj",
+            "references": [],
+            "type": "HttpRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 37
+            },
+            "modifiers": [],
+            "name": "httpResponse",
+            "references": [],
+            "type": "HttpResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 40
+            },
+            "modifiers": [],
+            "name": "domObj",
+            "references": [],
+            "type": "Document"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 43
+            },
+            "modifiers": [],
+            "name": "nodeObj",
+            "references": [],
+            "type": "XmlNode"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 57
+            },
+            "modifiers": [],
+            "name": "batchContext",
+            "references": [],
+            "type": "BatchableContext"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 82,
+                "line": 79
+            },
+            "modifiers": [],
+            "name": "pOnetOccupationList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 130,
+                "line": 79
+            },
+            "modifiers": [],
+            "name": "pOccupationDBMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "occupationInstance",
+            "references": [],
+            "type": "Occupation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 68,
+                "line": 60
+            },
+            "modifiers": [],
+            "name": "nodeObj",
+            "references": [],
+            "type": "XmlNode"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 61
+            },
+            "modifiers": [],
+            "name": "onetOccupationObjLst",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 63
+            },
+            "modifiers": [],
+            "name": "childNodes",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "child",
+            "references": [],
+            "type": "XmlNode"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 65
+            },
+            "modifiers": [],
+            "name": "onetOccupationObj",
+            "references": [],
+            "type": "Occupation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 66
+            },
+            "modifiers": [],
+            "name": "childNodeRecords",
+            "references": [],
+            "type": "XmlNode"
+        }
+    ]
+}

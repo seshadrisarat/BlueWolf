@@ -1,0 +1,16 @@
+{
+    "projectName": "DETE Sandbox",
+    "username": "shraddha.ingale@bluewolf.com.devsandbox",
+    "id": "3e891a90-bde2-11e6-872a-0fccb8dc0ab2",
+    "namespace": "",
+    "environment": "custom",
+    "loginUrl": "https://cs32.salesforce.com",
+    "workspace": "D:\\Projects",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "StaticResource"
+    ]
+}

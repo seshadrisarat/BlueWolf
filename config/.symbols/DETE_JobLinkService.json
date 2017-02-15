@@ -1,0 +1,399 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01pr00000009IEZAA2",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 17
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "JobDetails",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "JobDetails",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 10
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "id",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 11
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "title",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 12
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "description",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 13
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "url",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 14
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "employer",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 15
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "location",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 9
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "JobDetails",
+                "references": [],
+                "type": "JobDetails"
+            },
+            "variables": []
+        }
+    ],
+    "interfaces": [],
+    "key": "01pr00000009IEZAA2",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 36,
+                "line": 27
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "searchAvillableJobs",
+            "parameters": [
+                {
+                    "name": "keyword",
+                    "type": "String"
+                },
+                {
+                    "name": "location",
+                    "type": "String"
+                },
+                {
+                    "name": "radius",
+                    "type": "Decimal"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 61
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "fetchRelatedJob",
+            "parameters": [
+                {
+                    "name": "endPointURL",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "HttpResponse",
+            "type": null
+        }
+    ],
+    "name": "DETE_JobLinkService",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 3
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "STR_KEYWORDS",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 4
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "STR_LOCATION",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 5
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "STR_RADIUS",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 6
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "STR_RANGE",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 7
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "STR_ENDPONTURL",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "DETE_JobLinkService",
+        "references": [],
+        "type": "DETE_JobLinkService"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 63,
+                "line": 27
+            },
+            "modifiers": [],
+            "name": "keyword",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 79,
+                "line": 27
+            },
+            "modifiers": [],
+            "name": "location",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 97,
+                "line": 27
+            },
+            "modifiers": [],
+            "name": "radius",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 29
+            },
+            "modifiers": [],
+            "name": "endPointURL",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 48
+            },
+            "modifiers": [],
+            "name": "httpResp",
+            "references": [],
+            "type": "HttpResponse"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 51
+            },
+            "modifiers": [],
+            "name": "reponseBody",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 55
+            },
+            "modifiers": [],
+            "name": "jobDeailsList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 55,
+                "line": 61
+            },
+            "modifiers": [],
+            "name": "endPointURL",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 68
+            },
+            "modifiers": [],
+            "name": "http",
+            "references": [],
+            "type": "Http"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "httpReq",
+            "references": [],
+            "type": "HttpRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "httpRes",
+            "references": [],
+            "type": "HttpResponse"
+        }
+    ]
+}

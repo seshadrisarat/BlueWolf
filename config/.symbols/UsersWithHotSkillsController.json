@@ -1,0 +1,599 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 13
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "UsersWithHotSkillsController",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01pr00000009L9wAAE",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 13,
+                        "line": 111
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "contactWrapper",
+                    "parameters": [
+                        {
+                            "name": "pCount",
+                            "type": "Integer"
+                        },
+                        {
+                            "name": "pContactList",
+                            "type": "LIST"
+                        },
+                        {
+                            "name": "pSelectedStr",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "contactWrapper",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 21,
+                        "line": 108
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "uCount",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 27,
+                        "line": 109
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "contactList",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 110
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "selectedStr",
+                    "references": [],
+                    "type": "String"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 18,
+                    "line": 107
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "contactWrapper",
+                "references": [],
+                "type": "contactWrapper"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 36,
+                        "line": 111
+                    },
+                    "modifiers": [],
+                    "name": "pCount",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 58,
+                        "line": 111
+                    },
+                    "modifiers": [],
+                    "name": "pContactList",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 79,
+                        "line": 111
+                    },
+                    "modifiers": [],
+                    "name": "pSelectedStr",
+                    "references": [],
+                    "type": "String"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01pr00000009L9wAAE",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 52
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "save",
+            "parameters": [],
+            "references": [],
+            "returnType": "PageReference",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 77
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getHotSkills",
+            "parameters": [
+                {
+                    "name": "so",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 88
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getGeneralTechnology",
+            "parameters": [
+                {
+                    "name": "so",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 97
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "getKnowledge",
+            "parameters": [
+                {
+                    "name": "so",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "UsersWithHotSkillsController",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 4
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "selectedContacts",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 5
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "allOptions",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 6
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "contactWrapperLst",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 7
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "recordTypeMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 8
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "technologyMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 9
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "message",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 10
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "knowlwdgeMap",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 11
+            },
+            "modifiers": [
+                "private"
+            ],
+            "name": "activeContactId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 12
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "run",
+            "references": [],
+            "type": "Boolean"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "UsersWithHotSkillsController",
+        "references": [],
+        "type": "UsersWithHotSkillsController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "recordTypelst",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 19
+            },
+            "modifiers": [],
+            "name": "rt",
+            "references": [],
+            "type": "RecordType"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 22
+            },
+            "modifiers": [],
+            "name": "technologyLst",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 23
+            },
+            "modifiers": [],
+            "name": "tech",
+            "references": [],
+            "type": "Technology__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 28
+            },
+            "modifiers": [],
+            "name": "knowledgeLst",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 29
+            },
+            "modifiers": [],
+            "name": "know",
+            "references": [],
+            "type": "Knowledges__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 36
+            },
+            "modifiers": [],
+            "name": "listUser",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 47
+            },
+            "modifiers": [],
+            "name": "u",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 55
+            },
+            "modifiers": [],
+            "name": "so",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 77
+            },
+            "modifiers": [],
+            "name": "so",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 78
+            },
+            "modifiers": [],
+            "name": "contactlst",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 79
+            },
+            "modifiers": [],
+            "name": "contactSet",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 88
+            },
+            "modifiers": [],
+            "name": "so",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 89
+            },
+            "modifiers": [],
+            "name": "contactlst1",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 90
+            },
+            "modifiers": [],
+            "name": "contactSet1",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 91
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 37,
+                "line": 97
+            },
+            "modifiers": [],
+            "name": "so",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 98
+            },
+            "modifiers": [],
+            "name": "contactlst2",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 20,
+                "line": 99
+            },
+            "modifiers": [],
+            "name": "contactSet2",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 100
+            },
+            "modifiers": [],
+            "name": "c",
+            "references": [],
+            "type": "Contact"
+        }
+    ]
+}

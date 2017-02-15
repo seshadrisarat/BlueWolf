@@ -1,0 +1,28 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01pr00000009RWNAA2",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01pr00000009RWNAA2",
+    "methods": [],
+    "name": "DETE_SendEmailService",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "DETE_SendEmailService",
+        "references": [],
+        "type": "DETE_SendEmailService"
+    },
+    "variables": []
+}

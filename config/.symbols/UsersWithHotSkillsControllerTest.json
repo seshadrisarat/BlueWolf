@@ -1,0 +1,153 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01pr00000009LzYAAU",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01pr00000009LzYAAU",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 25,
+                "line": 8
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "unitTestOne",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "UsersWithHotSkillsControllerTest",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 4
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "final"
+            ],
+            "name": "BOOLEANFALSE",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 5
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "final"
+            ],
+            "name": "BOOLEANTRUE",
+            "references": [],
+            "type": "Boolean"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 27,
+            "line": 2
+        },
+        "modifiers": [
+            "public",
+            "testMethod",
+            "with sharing"
+        ],
+        "name": "UsersWithHotSkillsControllerTest",
+        "references": [],
+        "type": "UsersWithHotSkillsControllerTest"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 8,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "testUser",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 12
+            },
+            "modifiers": [],
+            "name": "techList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 16
+            },
+            "modifiers": [],
+            "name": "techObj",
+            "references": [],
+            "type": "Technology__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 20
+            },
+            "modifiers": [],
+            "name": "knowledgeList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 22
+            },
+            "modifiers": [],
+            "name": "knowledgeObj",
+            "references": [],
+            "type": "Knowledges__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "usersWithHotSkillsControllerObj",
+            "references": [],
+            "type": "UsersWithHotSkillsController"
+        }
+    ]
+}

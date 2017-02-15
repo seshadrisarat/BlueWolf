@@ -1,0 +1,118 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 4
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "DETE_ContactUsController",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01pr00000009LCqAAM",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01pr00000009LCqAAM",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 8
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "saveCommunityCase",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "DETE_ContactUsController",
+    "namespace": null,
+    "parentClass": "DETE_BaseClass",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 2
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "stdCase",
+            "references": [],
+            "type": "Case"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "DETE_ContactUsController",
+        "references": [],
+        "type": "DETE_ContactUsController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 11
+            },
+            "modifiers": [],
+            "name": "contactObj",
+            "references": [],
+            "type": "Contact"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 15
+            },
+            "modifiers": [],
+            "name": "msgStr",
+            "references": [],
+            "type": "Message"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 18
+            },
+            "modifiers": [],
+            "name": "msgStr",
+            "references": [],
+            "type": "Message"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 27
+            },
+            "modifiers": [],
+            "name": "msgStr",
+            "references": [],
+            "type": "Message"
+        }
+    ]
+}

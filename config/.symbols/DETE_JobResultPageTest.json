@@ -1,0 +1,338 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01pr00000009LzJAAU",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01pr00000009LzJAAU",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 4
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testLoadPage",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 24
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testNonAutoCompleteOccupation",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 60
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testAutoCompleteOccupation",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 102
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testLocationAndRadiusInput",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "DETE_JobResultPageTest",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 2
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "DETE_JobResultPageTest",
+        "references": [],
+        "type": "DETE_JobResultPageTest"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 6
+            },
+            "modifiers": [],
+            "name": "pageRef",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 18,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "user",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 14
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "DETE_JobResultController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 26
+            },
+            "modifiers": [],
+            "name": "pageRef",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 28
+            },
+            "modifiers": [],
+            "name": "resultMain",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 29
+            },
+            "modifiers": [],
+            "name": "resultRelated",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 30
+            },
+            "modifiers": [],
+            "name": "resultOther",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 34
+            },
+            "modifiers": [],
+            "name": "user",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 41
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "DETE_JobResultController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 62
+            },
+            "modifiers": [],
+            "name": "pageRef",
+            "references": [],
+            "type": "PageReference"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 64
+            },
+            "modifiers": [],
+            "name": "resultMain",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 65
+            },
+            "modifiers": [],
+            "name": "resultRelated",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 66
+            },
+            "modifiers": [],
+            "name": "resultOther",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 70
+            },
+            "modifiers": [],
+            "name": "user",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 71
+            },
+            "modifiers": [],
+            "name": "occupObjList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 72
+            },
+            "modifiers": [],
+            "name": "technologyList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 41,
+                "line": 73
+            },
+            "modifiers": [],
+            "name": "occupationTechList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 83
+            },
+            "modifiers": [],
+            "name": "controller",
+            "references": [],
+            "type": "DETE_JobResultController"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 40,
+                "line": 103
+            },
+            "modifiers": [],
+            "name": "jobDetail",
+            "references": [],
+            "type": "JobDetails"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 107
+            },
+            "modifiers": [],
+            "name": "jobDetails",
+            "references": [],
+            "type": "LIST"
+        }
+    ]
+}

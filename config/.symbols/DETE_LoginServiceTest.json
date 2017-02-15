@@ -1,0 +1,226 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01pr00000009LzAAAU",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01pr00000009LzAAAU",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 5
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testLoginMethod",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 26
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testUtil",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 38
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testRegisterNewUserMethod",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 43
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testForgetPasswordMethod",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 48
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testgetUsersNameMethod",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 58
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "testcloseErrorMethod",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "DETE_LoginServiceTest",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 2
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "DETE_LoginServiceTest",
+        "references": [],
+        "type": "DETE_LoginServiceTest"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "loginServiceClass",
+            "references": [],
+            "type": "DETE_LoginService"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 27
+            },
+            "modifiers": [],
+            "name": "util",
+            "references": [],
+            "type": "DETE_Util"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 39
+            },
+            "modifiers": [],
+            "name": "loginServiceClass",
+            "references": [],
+            "type": "DETE_LoginService"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 44
+            },
+            "modifiers": [],
+            "name": "loginServiceClass",
+            "references": [],
+            "type": "DETE_LoginService"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 24,
+                "line": 50
+            },
+            "modifiers": [],
+            "name": "loginServiceClass",
+            "references": [],
+            "type": "DETE_LoginService"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "loginServiceClass",
+            "references": [],
+            "type": "DETE_LoginService"
+        }
+    ]
+}

@@ -1,0 +1,58 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 4
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "DETE_BaseClass",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01pr00000009I82AAE",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01pr00000009I82AAE",
+    "methods": [],
+    "name": "DETE_BaseClass",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 2
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "strUserName",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 35,
+            "line": 1
+        },
+        "modifiers": [
+            "virtual",
+            "public",
+            "with sharing"
+        ],
+        "name": "DETE_BaseClass",
+        "references": [],
+        "type": "DETE_BaseClass"
+    },
+    "variables": []
+}

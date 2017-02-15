@@ -1,0 +1,55 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01pr00000009IEeAAM",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01pr00000009IEeAAM",
+    "methods": [],
+    "name": "DETE_OccupationWiseJobResult",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 4
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "occupation",
+            "references": [],
+            "type": "Occupation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 53,
+                "line": 5
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "jobResultList",
+            "references": [],
+            "type": "LIST"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "DETE_OccupationWiseJobResult",
+        "references": [],
+        "type": "DETE_OccupationWiseJobResult"
+    },
+    "variables": []
+}

@@ -1,0 +1,28 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01pt00000000AXHAA2",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01pt00000000AXHAA2",
+    "methods": [],
+    "name": "Util",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "Util",
+        "references": [],
+        "type": "Util"
+    },
+    "variables": []
+}

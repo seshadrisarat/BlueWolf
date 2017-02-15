@@ -1,0 +1,131 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01pr00000009LyuAAE",
+    "innerClasses": [],
+    "interfaces": [
+        "System.HttpCalloutMock"
+    ],
+    "key": "01pr00000009LyuAAE",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 9
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "respond",
+            "parameters": [
+                {
+                    "name": "req",
+                    "type": "HttpRequest"
+                }
+            ],
+            "references": [],
+            "returnType": "HttpResponse",
+            "type": null
+        }
+    ],
+    "name": "DETE_MockResponseBadResponseClass",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 23,
+                "line": 3
+            },
+            "modifiers": [
+                "protected"
+            ],
+            "name": "code",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 4
+            },
+            "modifiers": [
+                "protected"
+            ],
+            "name": "status",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 5
+            },
+            "modifiers": [
+                "protected"
+            ],
+            "name": "body",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 35,
+                "line": 6
+            },
+            "modifiers": [
+                "protected"
+            ],
+            "name": "responseHeaders",
+            "references": [],
+            "type": "Map"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 14,
+            "line": 2
+        },
+        "modifiers": [
+            "public",
+            "testMethod"
+        ],
+        "name": "DETE_MockResponseBadResponseClass",
+        "references": [],
+        "type": "DETE_MockResponseBadResponseClass"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 45,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "req",
+            "references": [],
+            "type": "HttpRequest"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 22,
+                "line": 11
+            },
+            "modifiers": [],
+            "name": "res",
+            "references": [],
+            "type": "HttpResponse"
+        }
+    ]
+}

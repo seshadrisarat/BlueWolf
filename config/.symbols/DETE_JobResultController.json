@@ -1,0 +1,707 @@
+{
+    "constructors": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 8
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "DETE_JobResultController",
+            "parameters": [],
+            "references": [],
+            "type": null
+        }
+    ],
+    "externalReferences": [],
+    "id": "01pr00000009IEoAAM",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01pr00000009IEoAAM",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 28
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOccupList",
+            "parameters": [
+                {
+                    "name": "userPosition",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 54,
+                "line": 46
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getmainOccupationJobResultList",
+            "parameters": [
+                {
+                    "name": "userPosition",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 54,
+                "line": 74
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getrelatedOccupationJobResultList",
+            "parameters": [
+                {
+                    "name": "userPosition",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "RemoteAction"
+                }
+            ],
+            "location": {
+                "column": 54,
+                "line": 98
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOtherOccupationJobResultList",
+            "parameters": [
+                {
+                    "name": "specificTechnologies",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 54,
+                "line": 122
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "fetchOccupationWiseJobResult",
+            "parameters": [
+                {
+                    "name": "occupationList",
+                    "type": "LIST"
+                },
+                {
+                    "name": "location",
+                    "type": "String"
+                },
+                {
+                    "name": "radius",
+                    "type": "Decimal"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 148
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOccupationWiseJobResults",
+            "parameters": [
+                {
+                    "name": "postionStr",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 39,
+                "line": 164
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOccupationsFromSet",
+            "parameters": [
+                {
+                    "name": "occupationId",
+                    "type": "Set"
+                }
+            ],
+            "references": [],
+            "returnType": "LIST",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 31,
+                "line": 179
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getRelatedOccupations",
+            "parameters": [
+                {
+                    "name": "socCode",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Set",
+            "type": null
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 197
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "getOtherCareers",
+            "parameters": [
+                {
+                    "name": "skills",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Set",
+            "type": null
+        }
+    ],
+    "name": "DETE_JobResultController",
+    "namespace": null,
+    "parentClass": "DETE_BaseClass",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 5
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "userPosition",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 6
+            },
+            "modifiers": [
+                "public"
+            ],
+            "name": "specificTechnologies",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 2
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "THRESHOLD_RANK_VALUE",
+            "references": [],
+            "type": "Integer"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 33,
+                "line": 3
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "THRESHOLD_RANK_VALUE_OVERLAP",
+            "references": [],
+            "type": "Integer"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 27,
+            "line": 1
+        },
+        "modifiers": [
+            "public",
+            "with sharing"
+        ],
+        "name": "DETE_JobResultController",
+        "references": [],
+        "type": "DETE_JobResultController"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "userObj",
+            "references": [],
+            "type": "User"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 28
+            },
+            "modifiers": [],
+            "name": "userPosition",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 29
+            },
+            "modifiers": [],
+            "name": "occupObjList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 92,
+                "line": 46
+            },
+            "modifiers": [],
+            "name": "userPosition",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 52
+            },
+            "modifiers": [],
+            "name": "occupObjList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 53
+            },
+            "modifiers": [],
+            "name": "mainOccupationJobResultList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 28,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "occupObj",
+            "references": [],
+            "type": "Occupation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 95,
+                "line": 74
+            },
+            "modifiers": [],
+            "name": "userPosition",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 80
+            },
+            "modifiers": [],
+            "name": "occupObjList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 81
+            },
+            "modifiers": [],
+            "name": "relatedOccupationJobResultList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 93,
+                "line": 98
+            },
+            "modifiers": [],
+            "name": "specificTechnologies",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 104
+            },
+            "modifiers": [],
+            "name": "otherOccupationJobResultList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 105
+            },
+            "modifiers": [],
+            "name": "occupationSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 103,
+                "line": 122
+            },
+            "modifiers": [],
+            "name": "occupationList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 123
+            },
+            "modifiers": [],
+            "name": "location",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 123
+            },
+            "modifiers": [],
+            "name": "radius",
+            "references": [],
+            "type": "Decimal"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 38,
+                "line": 130
+            },
+            "modifiers": [],
+            "name": "occupationWiseJobResult",
+            "references": [],
+            "type": "DETE_OccupationWiseJobResult"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 44,
+                "line": 131
+            },
+            "modifiers": [],
+            "name": "occupationWiseJobResultList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 133
+            },
+            "modifiers": [],
+            "name": "occObj",
+            "references": [],
+            "type": "Occupation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 74,
+                "line": 148
+            },
+            "modifiers": [],
+            "name": "postionStr",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 150
+            },
+            "modifiers": [],
+            "name": "socCodeSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 152
+            },
+            "modifiers": [],
+            "name": "occupationList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 69,
+                "line": 164
+            },
+            "modifiers": [],
+            "name": "occupationId",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 165
+            },
+            "modifiers": [],
+            "name": "occupationList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 60,
+                "line": 179
+            },
+            "modifiers": [],
+            "name": "socCode",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 16,
+                "line": 185
+            },
+            "modifiers": [],
+            "name": "requestUrl",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 189
+            },
+            "modifiers": [],
+            "name": "socCodeSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 50,
+                "line": 197
+            },
+            "modifiers": [],
+            "name": "skills",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 12,
+                "line": 202
+            },
+            "modifiers": [],
+            "name": "recordTypeId",
+            "references": [],
+            "type": "Id"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 209
+            },
+            "modifiers": [],
+            "name": "hotSkillSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 30,
+                "line": 211
+            },
+            "modifiers": [],
+            "name": "tech_OccRank",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 26,
+                "line": 213
+            },
+            "modifiers": [],
+            "name": "technologyMappingDetails",
+            "references": [],
+            "type": "Map"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 216
+            },
+            "modifiers": [],
+            "name": "occupationSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 218
+            },
+            "modifiers": [],
+            "name": "occupation",
+            "references": [],
+            "type": "Occupation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 242
+            },
+            "modifiers": [],
+            "name": "occupationTechLineItem",
+            "references": [],
+            "type": "OccupationTechLineItem__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 47,
+                "line": 252
+            },
+            "modifiers": [],
+            "name": "occupationTechLineItem",
+            "references": [],
+            "type": "OccupationTechLineItem__c"
+        }
+    ]
+}

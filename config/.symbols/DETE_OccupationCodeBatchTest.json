@@ -1,0 +1,396 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01pr00000009LjGAAU",
+    "innerClasses": [],
+    "interfaces": [],
+    "key": "01pr00000009LjGAAU",
+    "methods": [
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 8
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "unitTestOne",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 56
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "unitTestTwo",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        },
+        {
+            "annotations": [
+                {
+                    "name": "IsTest"
+                }
+            ],
+            "location": {
+                "column": 28,
+                "line": 104
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "testMethod"
+            ],
+            "name": "unitTestThree",
+            "parameters": [],
+            "references": [],
+            "returnType": "void",
+            "type": null
+        }
+    ],
+    "name": "DETE_OccupationCodeBatchTest",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 4
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "final"
+            ],
+            "name": "BOOLEANFALSE",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 34,
+                "line": 5
+            },
+            "modifiers": [
+                "private",
+                "static",
+                "final"
+            ],
+            "name": "BOOLEANTRUE",
+            "references": [],
+            "type": "Boolean"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 32,
+                "line": 6
+            },
+            "modifiers": [
+                "static",
+                "public",
+                "final"
+            ],
+            "name": "CRON_EXP",
+            "references": [],
+            "type": "String"
+        }
+    ],
+    "tableDeclaration": {
+        "annotations": [
+            {
+                "name": "IsTest"
+            }
+        ],
+        "location": {
+            "column": 15,
+            "line": 2
+        },
+        "modifiers": [
+            "private",
+            "testMethod"
+        ],
+        "name": "DETE_OccupationCodeBatchTest",
+        "references": [],
+        "type": "DETE_OccupationCodeBatchTest"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 10
+            },
+            "modifiers": [],
+            "name": "idSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 11
+            },
+            "modifiers": [],
+            "name": "titleSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 13
+            },
+            "modifiers": [],
+            "name": "occupationList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 17
+            },
+            "modifiers": [],
+            "name": "occupationObj",
+            "references": [],
+            "type": "Occupation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 25
+            },
+            "modifiers": [],
+            "name": "integrationDetailsObj",
+            "references": [],
+            "type": "DETE_ONET_Integration_Details__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 39
+            },
+            "modifiers": [],
+            "name": "occupationQueryList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 47
+            },
+            "modifiers": [],
+            "name": "occupationObj",
+            "references": [],
+            "type": "Occupation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 58
+            },
+            "modifiers": [],
+            "name": "idSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 59
+            },
+            "modifiers": [],
+            "name": "titleSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 61
+            },
+            "modifiers": [],
+            "name": "occupationList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 65
+            },
+            "modifiers": [],
+            "name": "occupationObj",
+            "references": [],
+            "type": "Occupation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 73
+            },
+            "modifiers": [],
+            "name": "integrationDetailsObj",
+            "references": [],
+            "type": "DETE_ONET_Integration_Details__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 87
+            },
+            "modifiers": [],
+            "name": "occupationQueryList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 95
+            },
+            "modifiers": [],
+            "name": "occupationObj",
+            "references": [],
+            "type": "Occupation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 17,
+                "line": 107
+            },
+            "modifiers": [],
+            "name": "idSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 21,
+                "line": 108
+            },
+            "modifiers": [],
+            "name": "titleSet",
+            "references": [],
+            "type": "Set"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 29,
+                "line": 110
+            },
+            "modifiers": [],
+            "name": "occupationList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 114
+            },
+            "modifiers": [],
+            "name": "occupationObj",
+            "references": [],
+            "type": "Occupation__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 42,
+                "line": 122
+            },
+            "modifiers": [],
+            "name": "integrationDetailsObj",
+            "references": [],
+            "type": "DETE_ONET_Integration_Details__c"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 14,
+                "line": 129
+            },
+            "modifiers": [],
+            "name": "jobId",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 19,
+                "line": 134
+            },
+            "modifiers": [],
+            "name": "ct",
+            "references": [],
+            "type": "CronTrigger"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 156
+            },
+            "modifiers": [],
+            "name": "occupationQueryList",
+            "references": [],
+            "type": "LIST"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 27,
+                "line": 164
+            },
+            "modifiers": [],
+            "name": "occupationObj",
+            "references": [],
+            "type": "Occupation__c"
+        }
+    ]
+}
